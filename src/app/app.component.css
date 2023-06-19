@@ -1,4 +1,4 @@
-@import '../assets/mystyle.css';
+/*@import '../assets/mystyle.css';*/
 
 * {
   border: none;
@@ -319,8 +319,7 @@ footer {
 
 
 
-
-
+/*
 @media screen and (max-width: 1100px) {
   .defineHeader {
     margin: auto;
@@ -445,6 +444,9 @@ footer {
 
   }
 }
+
+*/
+
 
 /* Media query for screen widths less than or equal to 1000px */
 @media screen and (max-width: 1000px) {
