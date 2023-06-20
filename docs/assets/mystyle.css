@@ -1,0 +1,334 @@
+/* Media query for screen widths less than or equal to 1100px */
+ @media screen and (max-width: 1100px) {
+    .defineHeader {
+        margin: auto;
+    }
+
+    .contactInfo {
+        font-size: 14px;
+    }
+
+    .contactInfo ul {
+        gap: 5px;
+        font-size: 14px;
+    }
+
+    .contactInfo ul li:hover {
+        font-size: 14px !important;
+        padding: 0 !important;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .boxSmu, .boxUhcl, .boxCertificate {
+        flex: none;
+        margin: 10px auto;
+        width: 80%;
+    }
+
+    .boxSmu {
+        margin-left: auto;
+    }
+
+    .boxUhcl {
+        margin-left: auto;
+    }
+
+    .boxCertificate {
+        margin-left: auto;
+    }
+
+    .image {
+        height: 100px;
+        width: 100px;
+        margin-left: 20px;
+        margin-top: 3px;
+    }
+
+    .name {
+        height: 10px;
+        width: 85px;
+        background-color: gray;
+        font-size: 10px;
+        margin-left: 20px;
+        padding-left: 15px;
+        word-spacing: 3px;
+        color: white;
+    }
+
+    .mydetailOne {
+        margin-top: -70px;
+        margin-left: 140px;
+        font-size: 15px;
+        text-align: justify;
+        text-justify: inter-word;
+        margin-right: -5px;
+    }
+
+    .mydetailTwo {
+        font-size: 15px;
+        text-align: justify;
+        text-justify: inter-word;
+
+    }
+
+    article {
+        margin-top: -250px;
+
+    }
+
+    .profExp {
+        margin: auto;
+    }
+
+    h4 {
+        color: black;
+        font-size: 17px;
+        text-shadow: 2px 2px 4px #000000;
+    }
+
+    footer {
+        margin: auto;
+    }
+
+    .rsm-St {
+        float: right;
+        margin-right: 10px;
+        margin-top: -40px;
+
+    }
+    .fntRsm {
+        font-size: 12px;
+    }
+
+    .slider {
+        margin-left: 5px;
+        margin-top: 20px;
+        overflow: hidden;
+        position: relative;
+        width: auto;
+
+    }
+
+    .slide img {
+        height: 80px;
+        width: 80px;
+
+    }
+}
+
+/* Media query for screen widths less than or equal to 1000px */
+@media screen and (max-width: 1000px) {
+    /* Add your styles for 1000px and below here */
+}
+
+/* Media query for screen widths less than or equal to 900px */
+@media screen and (max-width: 900px) {
+    .defineHeader {
+        margin: auto;
+    }
+
+    .contactInfo {
+        font-size: 14px;
+    }
+
+    .contactInfo ul {
+        gap: 5px;
+        font-size: 14px;
+    }
+
+    .contactInfo ul li:hover {
+        font-size: 14px !important;
+        padding: 0 !important;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .boxSmu, .boxUhcl, .boxCertificate {
+        flex: none;
+        margin: 10px auto;
+        width: 80%;
+    }
+
+    .boxSmu {
+        margin-left: auto;
+    }
+
+    .boxUhcl {
+        margin-left: auto;
+    }
+
+    .boxCertificate {
+        margin-left: auto;
+    }
+
+    .image {
+        height: 100px;
+        width: 100px;
+        margin-left: 20px;
+        margin-top: 3px;
+    }
+
+    .name {
+        height: 10px;
+        width: 85px;
+        background-color: gray;
+        font-size: 10px;
+        margin-left: 20px;
+        padding-left: 15px;
+        word-spacing: 3px;
+        color: white;
+    }
+
+    .mydetailOne {
+        margin-top: -70px;
+        margin-left: 140px;
+        font-size: 15px;
+        text-align: justify;
+        text-justify: inter-word;
+        margin-right: -5px;
+    }
+
+    .mydetailTwo {
+        font-size: 15px;
+        text-align: justify;
+        text-justify: inter-word;
+
+    }
+
+    article {
+        margin-top: -250px;
+
+    }
+
+    .profExp {
+        margin: auto;
+    }
+
+    h4 {
+        color: black;
+        font-size: 17px;
+        text-shadow: 2px 2px 4px #000000;
+    }
+
+    footer {
+        margin: auto;
+    }
+
+    .rsm-St {
+        float: right;
+        margin-right: 10px;
+        margin-top: -40px;
+
+    }
+    .fntRsm {
+        font-size: 12px;
+    }
+
+    .slider {
+        margin-left: 5px;
+        margin-top: 20px;
+        overflow: hidden;
+        position: relative;
+        width: auto;
+
+    }
+
+    .slide img {
+        height: 80px;
+        width: 80px;
+
+    }
+}
+
+/* Media query for screen widths less than or equal to 800px */
+@media screen and (max-width: 800px) {
+    /* Add your styles for 800px and below here */
+}
+
+/* Media query for screen widths less than or equal to 600px */
+@media screen and (max-width: 600px) {
+    .defineHeader {
+        margin: auto;
+    }
+
+    .contactInfo {
+        font-size: 14px;
+    }
+
+    .contactInfo ul {
+        gap: 5px;
+
+    }
+
+    .contactInfo ul li:hover {
+        font-size: 11px !important;
+        padding: 0;
+    }
+
+    .limitBackground {
+        height: 30px;
+        width: 80px;
+        font-weight: bold;
+        background-color: yellow;
+    }
+
+    article {
+        margin-top: -250px;
+
+    }
+
+    .profExp {
+        width: 415px;
+        height: 90px;
+        border: 2px solid lightgray;
+        border-radius: 15px;
+        margin-top: 4px;
+        background-color: #F5F5F5;
+        box-shadow: 10px 10px lightblue;
+    }
+
+    .profExp:hover {
+        background-color: white;
+        letter-spacing: 1px;
+    }
+
+    h4 {
+        color: black;
+        font-size: 17px;
+        text-shadow: 2px 2px 4px #000000;
+    }
+
+    h3 {
+        color: black;
+        font-size: 14px;
+        text-align: center;
+
+    }
+
+    footer {
+        margin: auto;
+    }
+    .rsm-St {
+        float: right;
+        margin-right: 10px;
+        margin-top: -40px;
+
+    }
+    .fntRsm {
+        font-size: 12px;
+    }
+}
+
+/* Media query for screen widths less than or equal to 400px */
+@media screen and (max-width: 400px) {
+    /* Add your styles for 400px and below here */
+}
