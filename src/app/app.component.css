@@ -214,13 +214,14 @@ article {
   margin-top: 4px;
   background-color: #F5F5F5;
   box-shadow: 10px 10px lightblue;
-  cursor: pointer;
 }
 
+/*
 .profExp:hover {
   background-color: white;
   letter-spacing: 1px;
 }
+*/
 
 h4 {
   color: black;

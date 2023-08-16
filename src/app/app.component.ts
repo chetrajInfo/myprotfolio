@@ -1,5 +1,5 @@
 import { Component, ElementRef, Renderer2 } from '@angular/core';
-import { faFacebook } from '@fortawesome/free-brands-svg-icons';
+import { faDiscord, faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 import {faInstagram} from '@fortawesome/free-brands-svg-icons';
 import {faLinkedin} from '@fortawesome/free-brands-svg-icons';
@@ -17,6 +17,7 @@ export class AppComponent {
   faTwitter = faTwitter;
   instagramIcon = faInstagram;
   linkedinIcon = faLinkedin;
+  discordIcon = faDiscord;
   faVolumeUp = faVolumeUp;
 
 
